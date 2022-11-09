@@ -1,0 +1,9 @@
+<template>
+    <lightning-card  title="Addition" icon-name="standard:account">
+        <lightning-button-icon  icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+        <lightning-input type="number" value={number1} name="input1" onchange={change1} label="Enter Number1" ></lightning-input>
+        <lightning-input type="number" value={number2} name="input2" onchange={change2} label="Enter Number2" ></lightning-input>
+        <p>{result}</p>
+        <p slot="footer">Card Footer</p>
+    </lightning-card>
+</template>

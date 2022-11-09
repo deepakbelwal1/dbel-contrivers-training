@@ -1,0 +1,8 @@
+<template>
+    <lightning-card>
+        <lightning-button label="Random Dog" title="Non-primary action" onclick={handleClick} class="slds-var-m-left_x-small"></lightning-button>
+        <template if:true={pictureUrl}>
+            <img src={pictureUrl} />
+        </template>
+    </lightning-card>
+</template>

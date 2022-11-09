@@ -1,0 +1,33 @@
+<template>
+    <lightning-card>
+    <div>
+    <lightning-layout multiple-rows="true">
+        
+    <lightning-layout-item flexibility="auto" size="5" padding="around-small">
+        <c-addition></c-addition>
+    </lightning-layout-item>
+    <lightning-layout-item flexibility="auto" size="5" padding="around-small">
+        <c-subtraction></c-subtraction>
+    </lightning-layout-item>
+    
+    <lightning-layout-item flexibility="auto" size="5" padding="around-small">
+        <c-multiplication></c-multiplication>
+    </lightning-layout-item>
+    <lightning-layout-item flexibility="auto" size="5" padding="around-small">
+        <c-division></c-division>
+    </lightning-layout-item>
+
+</lightning-layout>
+
+</div>
+<div>
+
+    <lightning-button-group>
+        <lightning-button variant="success" label="Add"  onclick={handleAddition} class="slds-m-left_x-small"></lightning-button>
+        <lightning-button variant="success" label="Subtract"  onclick={handleSubtraction} class="slds-m-left_x-small"></lightning-button>
+        <lightning-button variant="success" label="Multipy"  onclick={handleMultiplication} class="slds-m-left_x-small"></lightning-button>
+        <lightning-button variant="success" label="Divide"  onclick={handleDivision} class="slds-m-left_x-small"></lightning-button>
+    </lightning-button-group>
+</div>
+</lightning-card>
+</template>

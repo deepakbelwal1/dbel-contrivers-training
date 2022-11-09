@@ -1,0 +1,9 @@
+<template>
+    <lightning-card  >
+        <Span if:true={displayInitialValue} slot="title">0</Span>
+        <Span if:false={displayInitialValue} slot="title">{count}</Span>
+            <lightning-button label="Increment" title="Non-primary action"
+            onclick={handleClick} class="slds-var-m-left_x-small"></lightning-button>
+    </lightning-card>
+
+</template>

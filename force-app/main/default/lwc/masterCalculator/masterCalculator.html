@@ -1,0 +1,29 @@
+<template>
+    <div>
+    
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+              <span>SHOW ADD</span>
+              <c-addition ></c-addition>
+                <lightning-button variant="brand" label="Addition" title="Addition" onclick={handleAdd} class="slds-m-left_x-small"></lightning-button>
+            </div>
+            <div class="slds-col">
+              <span> SHOW SUB</span>
+              <c-subtraction ></c-subtraction>
+                <lightning-button variant="brand" label="subtraction" title="subtraction" onclick={handleSub} class="slds-m-left_x-small"></lightning-button>
+            </div>
+            <div class="slds-col">
+              <span> SHOW MUL</span>
+              <c-multiplication></c-multiplication>
+                <lightning-button variant="brand" label="Multiplication" title="Multiplication" onclick={handleMul} class="slds-m-left_x-small"></lightning-button>  
+            </div>
+            <div class="slds-col">
+              <span> SHOW DIV</span>
+              <c-division></c-division>
+                <lightning-button variant="brand" label="Division" title="Division" onclick={handleDiv} class="slds-m-left_x-small"></lightning-button>   
+            </div>
+          </div>
+        </div>
+        
+        
+    </template>
