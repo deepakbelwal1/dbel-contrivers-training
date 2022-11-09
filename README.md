@@ -1,1 +1,0 @@
-# dbel-contrivers-training
