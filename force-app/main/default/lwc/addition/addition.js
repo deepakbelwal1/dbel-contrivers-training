@@ -1,7 +1,7 @@
 import { LightningElement, api } from 'lwc';
 
 export default class Addition extends LightningElement {
-  Comment;
+  Comment=0;
     number1;
     number2;
     result;
